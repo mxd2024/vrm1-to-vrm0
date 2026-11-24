@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "vrm1_to_vrm0"
+version = "0.1.0"
+name = "VRM1 to VRM0 Converter"
+tagline = "Copy VRM 1.0 settings to VRM 0.x and export"
+maintainer = "vrm1-to-vrm0"
+type = "add-on"
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+permissions = { files = "Read VRM files and write converted VRM files and reports" }
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "/.git/", "*.zip"]

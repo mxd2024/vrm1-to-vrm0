@@ -1,0 +1,5 @@
+tests/out/
+dist/
+__pycache__/
+verify/node_modules/
+.superpowers/
